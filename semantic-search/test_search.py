@@ -23,7 +23,7 @@ index = minmaxsearch.Index(
 
 index.fit(documents)
 
-query = "Can I join the course if I have no prior experience?"
+query = "What's your favourite course?"
 
 filter_dict = {"course": "data-engineering-zoomcamp"}
 boost_dict = {"question": 3}
